@@ -1,0 +1,56 @@
+body {
+    font-family: system-ui;
+    font-size: 18px;
+    line-height: 20px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    min-width: 320px;
+    width: fit-content;
+    margin: 25px auto;
+    border: 5px solid #e5e5e5;
+    padding: 25px;
+    border-radius: 24px;
+}
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5b5b5b;
+    margin: 0;
+}
+div#qrcode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+input {
+    width: -webkit-fill-available;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    color: #5b5b5b;
+}
+input:not([type="color"]) {
+    padding: 15px;
+}
+input:focus, 
+input:active,
+input:focus-visible {
+    box-shadow: 0 0 5px 2px #d8f7df8c;
+    outline: none;
+}
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 155px));
+    gap: 15px 10px;
+}
+label {
+    font-size: .8rem;
+    color: #1a1a1a;
+}
+label.url {
+    grid-column: span 2;
+}
