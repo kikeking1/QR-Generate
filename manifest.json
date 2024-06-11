@@ -1,0 +1,33 @@
+{
+    "short_name": "QR Generator",
+    "name": "Generador de Códigos Qr Personalizados",
+    "icons": [
+      {
+        "src": "icono-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icono-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icono-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icono-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000",
+    "description": "Permite personalizar en colores y destino los qr a generar, sin limite de creación o tiempo de uso y de manera gratuita.",
+    "orientation": "portrait-primary"
+  }

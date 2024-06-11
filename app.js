@@ -1,4 +1,5 @@
 function updateQRCode() {
+    console.log('es');
     var url = document.getElementById('urlInput').value;
     var bgColor = document.getElementById('bgColorInput').value;
     var fgColor = document.getElementById('fgColorInput').value;
